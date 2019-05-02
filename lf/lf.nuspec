@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>lf</id>
+    <title>lf (as in "list files")</title>
+    <version>0.12</version>
+    <authors>Gökçehan Karach</authors>
+    <owners>Chloe Stars</owners>
+    <summary>lf (as in "list files") is a terminal file manager written in Go.</summary>
+    <description><![CDATA[lf (as in "list files") is a terminal file manager written in Go.
+
+## Features
+
+- Cross-platform (Linux, OSX, BSDs, Windows (partial))
+- Single binary without any runtime dependencies (except for terminfo database)
+- Fast startup and low memory footprint (due to native code and static binaries)
+- Server/client architecture to share file selection between multiple instances
+- Configuration with shell commands
+- Customizable keybindings (vi and readline defaults)
+- Preview filtering (for source highlight, archives, pdfs/images as text etc.)
+]]></description>
+    <projectUrl>https://github.com/gokcehan/lf</projectUrl>
+    <tags>file manager foss cross-platform cli</tags>
+    <copyright>Gökçehan Karach</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/gokcehan/lf/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <releaseNotes>https://github.com/gokcehan/lf/releases/tag/r12</releaseNotes>
+    <docsUrl>https://github.com/gokcehan/lf/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/gokcehan/lf/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/cybercatgurrl/chocolatey-pkgs/lf/</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>
