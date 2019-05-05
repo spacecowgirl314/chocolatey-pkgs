@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>epr</id>
+    <title>epr</title>
+    <version>2.1.5</version>
+    <authors>Benawi Adha</authors>
+    <owners>Chloe Stars</owners>
+    <summary>Terminal/CLI Epub reader written in Python 3.7.</summary>
+    <description><![CDATA[Terminal/CLI Epub reader written in Python 3.7.
+
+## Features
+
+- Remembers last read file (just run epr without any argument)
+- Remembers last reading state for each file (per file saved state written to $HOME/.config/epr/config or $HOME/.epr respectively depending on availability)
+- Adjustable text area width
+- Adaptive to terminal resize
+- Supports EPUB3 (no audio support)
+- Secondary vim-like bindings
+- Supports opening images
+]]></description>
+    <projectUrl>https://github.com/wustho/epr</projectUrl>
+    <tags>epub reader book foss cross-platform cli</tags>
+    <copyright>Benawi Adha</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/wustho/epr/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <releaseNotes>https://github.com/wustho/epr/releases/tag/v2.1.5</releaseNotes>
+    <docsUrl>https://github.com/wustho/epr/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/wustho/epr/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/cybercatgurrl/chocolatey-pkgs/epr/</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>
