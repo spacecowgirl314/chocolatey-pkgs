@@ -30,7 +30,7 @@
     <releaseNotes>https://github.com/wustho/epr/releases/tag/v2.1.5</releaseNotes>
     <docsUrl>https://github.com/wustho/epr/blob/master/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/wustho/epr/issues</bugTrackerUrl>
-    <packageSourceUrl>https://github.com/cybercatgurrl/chocolatey-pkgs/epr/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/cybercatgurrl/chocolatey-pkgs/tree/master/epr/</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

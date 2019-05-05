@@ -30,7 +30,7 @@
     <releaseNotes>https://github.com/gokcehan/lf/releases/tag/r12</releaseNotes>
     <docsUrl>https://github.com/gokcehan/lf/blob/master/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/gokcehan/lf/issues</bugTrackerUrl>
-    <packageSourceUrl>https://github.com/cybercatgurrl/chocolatey-pkgs/lf/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/cybercatgurrl/chocolatey-pkgs/tree/master/lf/</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
