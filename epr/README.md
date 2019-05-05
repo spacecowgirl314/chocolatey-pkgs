@@ -1,4 +1,4 @@
-# [lf](https://chocolatey.org/packages/epr)
+# [epr](https://chocolatey.org/packages/epr)
 
 Terminal/CLI Epub reader written in Python 3.7.
 
