@@ -25,13 +25,21 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $re    = '-win.*\.zip$'
-    $url   = $download_page.links | ? href -match $re | select -First 2 -expand href | % { 'https://github.com' + $_ }
+    $url   = $download_page.links | ? href -match $re | select -First 3 -expand href | % { 'https://github.com' + $_ }
 
     $version  = $url -split '/' | select -Last 1 -Skip 1
 
+    # Fix for 2.2.7b. Hopefully this won't be necessary going forward.
+    $urlFix = ""
+    if ($version -match "2.2.7") {
+        $urlFix = $url -notmatch 'md' | select -First 1 -Skip 1
+    } else {
+        $urlFix = $url -notmatch 'md' | select -First 1
+    }
+
     @{
         Version      = $version -replace '^.'
-        URL64        = $url -notmatch 'md' | select -First 1
+        URL64        = $urlFix
         ReleaseNotes = "https://github.com/wustho/epr/releases/tag/${version}"
     }
 }
