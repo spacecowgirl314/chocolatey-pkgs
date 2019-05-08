@@ -2,7 +2,7 @@
 [![](http://transparent-favicon.info/favicon.ico)](#)[![](http://transparent-favicon.info/favicon.ico)](#)
 [Update status](https://gist.github.com/cybercatgurrl/112e32a66a1332d865bd58ae42496a5a)
 [![](http://transparent-favicon.info/favicon.ico)](#)
-[chocolatey/majkinetor](https://chocolatey.org/profiles/spacecowgirl)
+[chocolatey/spacecowgirl](https://chocolatey.org/profiles/spacecowgirl)
 [![](http://transparent-favicon.info/favicon.ico)](#) 
 [![](http://transparent-favicon.info/favicon.ico)](#) 
 [![](http://transparent-favicon.info/favicon.ico)](#) 
