@@ -29,17 +29,9 @@ function global:au_GetLatest {
 
     $version  = $url -split '/' | select -Last 1 -Skip 1
 
-    # Fix for 2.2.7b. Hopefully this won't be necessary going forward.
-    $urlFix = ""
-    if ($version -match "2.2.7") {
-        $urlFix = $url -notmatch 'md' | select -First 1 -Skip 1
-    } else {
-        $urlFix = $url -notmatch 'md' | select -First 1
-    }
-
     @{
         Version      = $version -replace '^.'
-        URL64        = $urlFix
+        URL64        = $url -match 'b-win' | select -First 1
         ReleaseNotes = "https://github.com/wustho/epr/releases/tag/${version}"
     }
 }
