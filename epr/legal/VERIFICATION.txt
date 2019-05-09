@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   x64: https://github.com/wustho/epr/releases/download/v2.1.5/epr-v2.1.5-win.zip
+   x64: https://github.com/wustho/epr/releases/download/v2.2.7/epr-v2.2.7b-win.zip
 
    to download the installer.
 
@@ -15,7 +15,7 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum64: F6A83496DEA4F54799F0FAF5295CE280CAC8679315BD514FBE0B03F529E9E837
+   checksum64: BF006D0077F2318742783119B7B87DB6898EEC927704DCBA066CDC5813F60612
 
 File 'LICENSE' is obtained from:
    https://raw.githubusercontent.com/wustho/epr/master/LICENSE
