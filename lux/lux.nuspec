@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>lux</id>
     <title>lux (ddc backlight control)</title>
-    <version>0.0</version>
+    <version>1.0.0</version>
     <authors>Chloe Stars</authors>
     <owners>Chloe Stars</owners>
     <summary>lux is a cli tool for controlling the brightness of external monitors that use DDC.</summary>
