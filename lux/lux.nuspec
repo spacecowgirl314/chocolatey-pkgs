@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>lux</id>
+    <title>lux (ddc backlight control)</title>
+    <version>0.0</version>
+    <authors>Chloe Stars</authors>
+    <owners>Chloe Stars</owners>
+    <summary>lux is a cli tool for controlling the brightness of external monitors that use DDC.</summary>
+    <description><![CDATA[lux is a cli tool for controlling the brightness of external monitors that use DDC.
+
+## Features
+
+- Set monitor brightness
+- Set monitor contrast
+- Multiple monitor support
+]]></description>
+    <projectUrl>https://github.com/cybercatgurrl/lux</projectUrl>
+    <tags>brightness ddc backlight-dimming cli</tags>
+    <copyright>Chloe Stars</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/cybercatgurrl/lux/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <releaseNotes>https://github.com/cybercatgurrl/lux/releases/tag/v1.0.0</releaseNotes>
+    <docsUrl>https://github.com/cybercatgurrl/lux/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/cybercatgurrl/lux/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/cybercatgurrl/chocolatey-pkgs/tree/master/lux/</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>
