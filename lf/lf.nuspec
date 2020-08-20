@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>lf</id>
     <title>lf (as in "list files")</title>
-    <version>0.15</version>
+    <version>0.16</version>
     <authors>Gökçehan Karach</authors>
     <owners>Chloe Stars</owners>
     <summary>lf (as in "list files") is a terminal file manager written in Go.</summary>
@@ -27,7 +27,7 @@
     <licenseUrl>https://raw.githubusercontent.com/gokcehan/lf/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 
-    <releaseNotes>https://github.com/gokcehan/lf/releases/tag/r15</releaseNotes>
+    <releaseNotes>https://github.com/gokcehan/lf/releases/tag/r16</releaseNotes>
     <docsUrl>https://github.com/gokcehan/lf/blob/master/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/gokcehan/lf/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/cybercatgurrl/chocolatey-pkgs/tree/master/lf/</packageSourceUrl>
