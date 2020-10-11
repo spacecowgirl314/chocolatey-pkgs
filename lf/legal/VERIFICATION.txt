@@ -7,8 +7,8 @@ Package can be verified like this:
 
 1. Go to
 
-   x32: https://github.com/gokcehan/lf/releases/download/r16/lf-windows-386.zip
-   x64: https://github.com/gokcehan/lf/releases/download/r16/lf-windows-amd64.zip
+   x32: https://github.com/gokcehan/lf/releases/download/r17/lf-windows-386.zip
+   x64: https://github.com/gokcehan/lf/releases/download/r17/lf-windows-amd64.zip
 
    to download the installer.
 
@@ -16,11 +16,11 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum32: 1DA57C29DEF541EED068EAB120F3C0607A8D573CA5DAEFADA97AE101637F4E3A
-   checksum64: 3B02CA60368DE0F05EEC814505D8D9EB99323404BBD1C40D9D6B7A5A10B51274
+   checksum32: C6C8408C9216C6DD9452B05318FA7EBC74F210B39108ACFA8D7746190D653A74
+   checksum64: E41BA598867139601DB688ED088A71F31AAB65E167CD65465E6B138DE9C06B5F
 
 Using AU:
-   Get-RemoteChecksum https://github.com/gokcehan/lf/releases/download/r16/lf-windows-amd64.zip
+   Get-RemoteChecksum https://github.com/gokcehan/lf/releases/download/r17/lf-windows-amd64.zip
 
 File 'LICENSE' is obtained from:
    https://raw.githubusercontent.com/gokcehan/lf/master/LICENSE
